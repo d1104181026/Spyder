@@ -1,0 +1,5 @@
+*.caffemodel
+.idea/
+*.png
+*.jpg
+*.bmp
