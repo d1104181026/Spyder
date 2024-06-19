@@ -24,9 +24,9 @@ cos_angle = np.cos(angle_rad)
 sin_angle = np.sin(angle_rad)
 
 dst_points = np.float32([
-    [?, ?], # 由您解答
-    [?, ?], # 由您解答
-    [?, ?], # 由您解答
+    [65, 65], # 由您解答
+    [305, 55], # 由您解答
+    [250, 375], # 由您解答
 ])
 
 # Compute the affine transformation matrix
@@ -40,3 +40,4 @@ cv2.imwrite('scaled_image.jpg', rotated_image)
 # cv2.imshow('Rotated Image', rotated_image)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
+
